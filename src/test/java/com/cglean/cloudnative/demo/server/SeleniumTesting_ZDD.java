@@ -22,7 +22,7 @@ public class SeleniumTesting_ZDD {
 				driver.navigate().to("http://shows-zdd-dev.cfapps.io/");
 				driver.manage().window().maximize();
 				Thread.sleep(1000);
-
+				/*
 				driver.findElement(
 						By.xpath("//div[@id='bs-example-navbar-collapse-1']/ul/li/a"))
 						.click();
@@ -72,7 +72,7 @@ public class SeleniumTesting_ZDD {
 				}
 
 
-				System.out.println(results);
+				System.out.println(results);*/
 				driver.close();
 				
 				
